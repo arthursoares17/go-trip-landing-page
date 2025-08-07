@@ -3,10 +3,24 @@
 
 @theme {
   --font-inter: 'Inter', sans-serif;
+
+  --color-background: oklch(98.5% 0 0);
+  --color-foreground: oklch(20.5% 0 0);
+  --color-primary: oklch(70.5% 0.213 47.604);
+  --color-primary-foreground: oklch(98.5% 0 0);
+  --color-secondary: oklch(92.2% 0 0);
+  --color-secondary-foreground: oklch(20.5% 0 0);
+  --color-muted: oklch(92.2% 0 0);
+  --color-muted-foreground: oklch(55.6% 0 0);
+  --color-accent: oklch(92.2% 0 0);
+  --color-accent-foreground: oklch(43.9% 0 0);
+  --color-border: oklch(87% 0 0);
+  --color-input: oklch(87% 0 0);
+  --color-ring: oklch(70.5% 0.213 47.604);
 }
 
 @layer base {
   body {
-    @apply antialiased font-inter;
+    @apply antialiased bg-background text-foreground font-inter;
   }
 }
