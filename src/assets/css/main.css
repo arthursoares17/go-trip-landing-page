@@ -1,22 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import 'tailwindcss';
 
+:root {
+  --neutral-50: oklch(98.5% 0 0); 
+  --neutral-100: oklch(97% 0 0);  
+  --neutral-200: oklch(92.2% 0 0); 
+  --neutral-300: oklch(87% 0 0); 
+  --neutral-400: oklch(70.8% 0 0); 
+  --neutral-500: oklch(55.6% 0 0); 
+  --neutral-600: oklch(43.9% 0 0);  
+  --neutral-900: oklch(20.5% 0 0); 
+
+  --orange-500: oklch(70.5% 0.213 47.604); 
+  --orange-600: oklch(64.6% 0.222 41.116); 
+}
+
 @theme {
   --font-inter: 'Inter', sans-serif;
 
-  --color-background: oklch(98.5% 0 0);
-  --color-foreground: oklch(20.5% 0 0);
-  --color-primary: oklch(70.5% 0.213 47.604);
-  --color-primary-foreground: oklch(98.5% 0 0);
-  --color-secondary: oklch(92.2% 0 0);
-  --color-secondary-foreground: oklch(20.5% 0 0);
-  --color-muted: oklch(92.2% 0 0);
-  --color-muted-foreground: oklch(55.6% 0 0);
-  --color-accent: oklch(92.2% 0 0);
-  --color-accent-foreground: oklch(43.9% 0 0);
-  --color-border: oklch(87% 0 0);
-  --color-input: oklch(87% 0 0);
-  --color-ring: oklch(70.5% 0.213 47.604);
+  --color-background: var(--neutral-50);
+  --color-foreground: var(--neutral-900);
+  --color-popover: var(--neutral-100);
+  --color-popover-foreground: var(--neutral-900);
+  --color-primary: var(--orange-500);
+  --color-primary-hover: var(--orange-600);
+  --color-primary-foreground: var(--neutral-50);
+  --color-secondary: var(--neutral-200);
+  --color-secondary-foreground: var(--neutral-900);
+  --color-muted: var(--neutral-200);
+  --color-muted-foreground: var(--neutral-500);
+  --color-accent: var(--neutral-200);
+  --color-accent-foreground: var(--neutral-400);
+  --color-border: var(--neutral-300);
+  --color-input: var(--neutral-600);
 }
 
 @layer base {
