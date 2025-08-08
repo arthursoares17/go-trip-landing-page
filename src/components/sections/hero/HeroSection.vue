@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import heroBackground from '@/assets/videos/hero-background.mp4'
+  import HeroSearch from './HeroSearch.vue'
 </script>
 
 <template>
@@ -28,6 +29,8 @@
           Explore destinos únicos, viva experiências transformadoras e colecione memórias que marcarão sua vida para sempre
         </p>
       </div>
+
+      <HeroSearch/>
     </div>
 
     <div class="absolute top-0 left-0 size-full bg-secondary-foreground/45 z-[5]"></div>
