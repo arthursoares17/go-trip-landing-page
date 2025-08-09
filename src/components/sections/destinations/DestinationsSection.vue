@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { topDestinationItems } from '@/utils/destinations'
+  import { topDestinationItems } from '@/data/destinations'
   import { ArrowRight } from 'lucide-vue-next'
   import Button from '../../ui/Button.vue'
   import DestinationsCard from './DestinationsCard.vue'
