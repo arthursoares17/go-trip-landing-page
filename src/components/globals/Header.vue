@@ -71,7 +71,7 @@
 
 <template>
   <header class="fixed top-5 left-0 right-0 z-30">
-    <div class="bg-background border border-secondary py-3 px-4 max-w-7xl mx-auto shadow-sm rounded-full">
+    <div class="bg-background border border-secondary py-3 px-4 max-w-7xl mx-auto shadow-sm rounded-2xl">
       <nav class="flex justify-between items-center">
         <Logo/>
 
